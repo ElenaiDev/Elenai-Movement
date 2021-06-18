@@ -1,15 +1,15 @@
-package com.elenai.elenaidodge2.config;
+package com.elenai.elenaihardcore.config;
 
 import org.apache.commons.lang3.tuple.Pair;
 
-import com.elenai.elenaidodge2.ElenaiDodge2;
+import com.elenai.elenaihardcore.ElenaiHardcore;
 
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.config.ModConfig;
 
-@EventBusSubscriber(modid = ElenaiDodge2.MODID, bus = EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(modid = ElenaiHardcore.MODID, bus = EventBusSubscriber.Bus.MOD)
 public final class ConfigHandler {
 
 	public static class Client {
